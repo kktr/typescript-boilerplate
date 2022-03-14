@@ -21,4 +21,9 @@ module.exports = {
     "plugin:import/typescript",
     "prettier",
   ],
+  env: {
+    node: true,
+    browser: true,
+    jest: true,
+  },
 };
