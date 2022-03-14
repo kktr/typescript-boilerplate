@@ -1,9 +1,11 @@
-import { greet } from './main'
+import { describe, test, expect } from "@jest/globals";
 
-test('the data is peanut butter', () => {
-  expect(1).toBe(1)
+import { greet } from "./main";
+
+test("the data is peanut butter", () => {
+  expect(1).toBe(1);
 });
 
-test('greeting', () => {
-  expect(greet('Foo')).toBe('Hello Foo')
+test("greeting", () => {
+  expect(greet("Foo")).toBe("Hello Foo");
 });
