@@ -19,7 +19,6 @@ module.exports = {
     'plugin:unicorn/recommended',
     'plugin:import/recommended',
     'plugin:import/typescript',
-    'plugin:prettier/recommended',
     'prettier',
   ],
   env: {
