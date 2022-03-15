@@ -1,3 +1,5 @@
+/* eslint-disable eslint-comments/disable-enable-pair */
+/* eslint-disable unicorn/prefer-module */
 module.exports = {
   root: true,
   plugins: [
